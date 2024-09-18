@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green,red,blue,green);
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+header, footer{
+    padding: 50px;
+    background-color: chartreuse;
+    text-align: center;
+}
+header h1{
+    text-shadow: 10px 2px 4px red;
+}
+nav{
+    background-color: darkviolet;
+    border: 30px solid blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:link{
+    color: darkgoldenrod;
+    padding: 20px;
+}
+nav a:hover{
+    color: deeppink;
+    transform: scale(1.2);
+    transform: rotate(180deg);
+}
+
+main{
+    padding: 30px;
+    line-height: 140%;
+    color: aqua;
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+}

@@ -1,0 +1,11 @@
+body{
+   background-color: black;
+    background-size: cover;
+    color: greenyellow;
+}
+.container{
+    max-width: 900px;
+    padding: 30px;
+    background-color: brown;
+    margin: auto;
+}

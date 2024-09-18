@@ -1,0 +1,9 @@
+div{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2%;
+    background-image: linear-gradient(red,green,pink,blue);
+}
+.erro{
+    border: 40px solid red;
+}
